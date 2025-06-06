@@ -44,5 +44,5 @@ This Docker setup uses Nginx to serve the built Angular application.
 
 ---
 
-**Generated with**: Angular CLI 17.3.8  
+**Generated with**: Angular CLI 19.2.14 
 **Node Version**: 20.x (recommended)
