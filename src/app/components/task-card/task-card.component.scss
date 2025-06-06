@@ -1,0 +1,44 @@
+.font-size {
+    font-size: small;
+}
+
+.version {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875rem;
+}
+
+.card {
+    background-color: white;
+    margin: 1rem;
+    transition: box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.card:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-color: white;
+}
+
+.card-footer {
+    padding: 1rem;
+    justify-content: space-between;
+    display: flex
+;
+}
+
+mat-chip {
+    pointer-events: none;
+}
+
+.low {
+    background-color: #25a42c !important;
+}
+
+.med {
+    background-color: #c86807 !important;
+}
+
+.high {
+    background-color: #d70e0e !important;
+}

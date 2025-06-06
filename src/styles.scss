@@ -1,0 +1,9 @@
+@use './app/shared/styles/theme.scss' as theme;
+
+@include theme.material-theme();
+
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
