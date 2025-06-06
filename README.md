@@ -21,15 +21,6 @@ This is the Angular frontend application for the Kanban board project. It provid
    ```
 4. Open your browser and go to `http://localhost:4200`.
 
-## Building for Production
-
-To build the application for production, run:
-```bash
-npm run build -- --configuration=production
-```
-
-The build artifacts will be stored in the `dist/kanban/browser` directory.
-
 ## Running with Docker
 
 You can build and run the frontend using Docker with the provided Dockerfile:
